@@ -12,13 +12,13 @@ class Student
 }
 class GradeCalculator {
     public static String getGrade(int marks) {
-        if (marks >= 90) return "O";
-        else if (marks >= 80) return "A+";
-        else if (marks >= 70) return "A";
-        else if (marks >= 60) return "B+";
-        else if (marks >= 50) return "B";
-        else if (marks >= 40) return "C";
-        else return "F";
+        if (marks >= 90) return "O    OUTSTANDING    10 ";
+        else if (marks >= 80) return "A+    EXCELLENT      9";
+        else if (marks >= 70) return "A     VERY GOOD      8";
+        else if (marks >= 60) return "B+    GOOD           7";
+        else if (marks >= 50) return "B     ABOVE AVERAGE  6";
+        else if (marks >= 40) return "C     AVERAGE        5";
+        else return "F     FAIL           0";
     }
 }
 class MarkManager 
